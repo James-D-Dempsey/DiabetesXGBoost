@@ -1,5 +1,5 @@
 
-# Task: Predict Diabetes Type Using Gradient Boosting Classifier
+# Predicting Diabetes Type Using Gradient Boosting Classifier
 
 ## Objective 
 Predict the type of diabetes (e.g., Type 1 Diabetes, Type 2 Diabetes, LADA, Neonatal Diabetes) based on medical and health attributes like Genetic Markers, Autoantibodies, Insulin Levels, BMI, Blood Pressure, etc.
