@@ -10,13 +10,13 @@ This project successfully predicts the type of diabetes (e.g., Type 1 Diabetes, 
 
 ## Model Training and Evaluation 
 - **Model Training**: The Gradient Boosting Classifier was trained using Grid Search to optimize hyperparameters. This ensured the best configuration for performance on the dataset.
-- **Evaluation Metrics**: The model was evaluated based on multiple metrics, including:    
+- **Evaluation Metrics**: The entire model was evaluated based on multiple metrics, including:    
 Accuracy: 0.91
 Precision: 0.92
 Recall: 0.91
 F1-score: 0.91
 
-These features may seem underwhelming unless you consider the lack of data surrounding Secondary Diabetes. Many features such as Type 2 diabetes have better scoring
+These features may seem underwhelming, but these metrics are based on all diabetes types in the .csv, including more rare cases such as Secondary diabetes. Many features such as Type 2 diabetes have better metrics.
 
 ## Feature Importance 
 - **Feature Importance Plot**: A feature importance analysis was conducted to determine the most significant attributes influencing the model's predictions. The plot and its implications demonstrate which features had the greatest impact on predicting the diabetes type.
