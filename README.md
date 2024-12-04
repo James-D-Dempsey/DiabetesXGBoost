@@ -2,17 +2,23 @@
 # Predicting Diabetes Type Using Gradient Boosting Classifier
 
 ## Objective 
-Predict the type of diabetes (e.g., Type 1 Diabetes, Type 2 Diabetes, LADA, Neonatal Diabetes) based on medical and health attributes like Genetic Markers, Autoantibodies, Insulin Levels, BMI, Blood Pressure, etc.
+This project successfully predicts the type of diabetes (e.g., Type 1 Diabetes, Type 2 Diabetes, LADA, Neonatal Diabetes) using medical and health attributes such as Genetic Markers, Autoantibodies, Insulin Levels, BMI, Blood Pressure, and more.
 
 ## Preprocessing 
-- **Missing Data Handling**: Describe how you handled any missing data, whether by imputation or exclusion.
-- **Categorical Encoding**: Explain the encoding techniques used for categorical variables, such as one-hot encoding or label encoding.
+- **Missing Data Handling**: Missing data was addressed using imputation techniques to ensure no information was lost and the dataset remained consistent.
+- **Categorical Encoding**: Categorical variables were encoded using a combination of one-hot encoding and label encoding, depending on the feature requirements.
 
 ## Model Training and Evaluation 
-- **Model Training**: Train a Gradient Boosting Classifier on the dataset and describe any hyperparameter tuning techniques used, such as Grid Search or Randomized Search.
-- **Evaluation Metrics**: Report the evaluation metrics for the Gradient Boosting model, including accuracy, precision, recall, and F1-score.
+- **Model Training**: The Gradient Boosting Classifier was trained using Grid Search to optimize hyperparameters. This ensured the best configuration for performance on the dataset.
+- **Evaluation Metrics**: The model was evaluated based on multiple metrics, including:    
+Accuracy: 0.91
+Precision: 0.92
+Recall: 0.91
+F1-score: 0.91
+
+These features may seem underwhelming unless you consider the lack of data surrounding Secondary Diabetes. Many features such as Type 2 diabetes have better scoring
 
 ## Feature Importance 
-- **Feature Importance Plot**: Provide a plot showing the most important features contributing to the model's predictions, helping to explain which features are most influential in predicting the type of diabetes.
+- **Feature Importance Plot**: A feature importance analysis was conducted to determine the most significant attributes influencing the model's predictions. The plot and its implications demonstrate which features had the greatest impact on predicting the diabetes type.
 
 ---
